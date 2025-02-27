@@ -1,0 +1,101 @@
+body {
+    background-color: ghostwhite;
+}
+
+.nav_bar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: mistyrose;
+}
+
+a {
+    font-size: 1.3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2em;
+    text-decoration: none;
+    display: flex;
+    color: black;
+}
+
+.toplinks{
+    margin: 2em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.left_side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 3em;
+}
+
+.heading {
+    font-family: cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.subheading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact_description p {
+    font-size: 1.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.right_side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 2em;
+}
+
+.contact_fields {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8.5em;
+}
+
+.contact_form {
+    width: 20em;
+    height: 4em;
+    outline: none;
+    border-color: lightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 1.05em;
+}
+
+.message_field textarea {
+    height: 10em;
+}
+
+.message_field {
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.name_field {
+    margin-top: 2em;
+}
+
+.contact_fields button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.05em;
+    border: none;
+    font-family: cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    border-radius: 2em;
+    background-color: lightblue;
+}

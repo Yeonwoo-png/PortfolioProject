@@ -1,0 +1,110 @@
+body {
+    background-color: ghostwhite;
+}
+
+.nav_bar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: mistyrose;
+}
+
+a {
+    font-size: 1.3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2em;
+    text-decoration: none;
+    display: flex;
+    color: black;
+}
+
+.toplinks{
+    margin: 2em;
+}
+
+.headshot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 16em;
+}
+
+.headshot p {
+    display: flex;
+    font-size: 2em;
+    padding: 4em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.headshot img {
+    border-radius: 8px;
+    width: 50%;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    margin-bottom: 13em;
+    padding: 1em;
+    padding-left: 3em;
+}
+
+.first_heading {
+    font-family: cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about_me p {
+    font-size: 1.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subheading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.skills li {
+    padding: 1em; /*I wonder if font size changes the bullet point size as well*/
+    font-size: 1.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.second_heading {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em;
+    padding: 1em;
+    font-family: cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2em;
+    padding: 4em;
+    flex-wrap: wrap;
+    background-color: mistyrose;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.projectpic {
+    width: 100%;
+}
+
+.project_info {
+    border: 2px dotted;
+    padding: 2em;
+    margin-top: 3em;
+    font-size: 1.05em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
