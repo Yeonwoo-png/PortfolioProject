@@ -99,6 +99,7 @@ a {
 
 .projectpic {
     width: 100%;
+    border-radius: 2em;
 }
 
 .project_info {
